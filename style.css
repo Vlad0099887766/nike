@@ -29,10 +29,6 @@ li {
 a{
     text-decoration: none;
 }
-.container{
-        width: 950px;
-        margin: 0px auto;
-}
 header{
     background-color: #012D63;
 }
@@ -82,7 +78,8 @@ gap: 10px;
     background-size: cover;
     background-repeat: no-repeat;
     /* width: 100%; */
-height: 100vh;
+/* height: 100vh; */
+padding: 100px;
 }
 .head_nike{
     width: 160px;
@@ -141,6 +138,7 @@ width: 254px;
 height: 67px;
 flex-shrink: 0;
 margin: 40px 0px 185px;
+cursor: pointer;
 }
 .foto{
     width: 240px;
@@ -168,11 +166,14 @@ margin: 105px 0px 105px 0px;
     flex-wrap: nowrap;
     align-items: center;
     justify-content: center;
-    padding: 105px 165px;
+    /* padding: 105px 165px; */
     border:5px solid  #8E32C6;
     gap: 145px;
 
 }
+/* .li_pading{
+    padding: 50px  20px;
+} */
 .blok{
         display: flex;
     align-items: center;
@@ -220,7 +221,8 @@ padding: 25px 630px 25px 630px;
            background-size: 340px 380px, cover;
     background-repeat: no-repeat;
     background-position: right center, center ;
-        height: 100vh;
+        /* height: 100vh; */
+        padding: 110px;
         padding-left: 18px;
         padding-top: 114px;
 }
@@ -310,8 +312,8 @@ padding: 0px 5px 29px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-            height: 100vh;
-
+            /* height: 100vh; */
+padding: 40px;
 }
 .Order{
     color: #FFF;
@@ -346,7 +348,7 @@ border-radius: 50px;
 border-top-left-radius: 0;
 border-bottom-left-radius: 0;
 margin: -10px;
-
+cursor: pointer;
 }
 .my_nike{
     border-radius: 16px;
@@ -362,6 +364,7 @@ font-size: 24px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+cursor: pointer;
 }
 #Write{
     width: 690px;
@@ -486,4 +489,8 @@ height: 86px;
     justify-content: space-between;
     flex-wrap: wrap;
     padding-top: 24px;
+}
+.futer_top{
+    padding-bottom: 24px;
+    padding-top: 45px;
 }
